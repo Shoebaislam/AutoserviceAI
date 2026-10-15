@@ -1,0 +1,32 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Credentials and secrets
+.streamlit/secrets.toml
+.env
+.env.*
+*.pem
+*.key
+
+# Local data and generated files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+temp/
+tmp/
+uploads/
+recordings/
+outputs/
+models/
+n8n-backup/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
